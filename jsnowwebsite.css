@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+/* Navbar*/
+#navbar{
+    background-color:aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px
+
+}
+
+li{
+    display: inline-block;
+    padding: 60px;
+}
+
+li:hover{
+    background-color: teal;
+}
+
+
+ul{
+    margin-left: 275px;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Header*/
+
+#header{
+    background-color: teal;
+    height: 300px;
+    width: 100px;
+}
+
+.wrapper{
+    padding:5em;
+    text-align: center;
+    color: white;
+}
