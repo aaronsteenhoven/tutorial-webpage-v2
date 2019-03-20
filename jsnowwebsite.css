@@ -75,7 +75,22 @@ li a{
     text-align: center;
     border:2px solid black;
     border-radius: 40px
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
 }
+
+/* The animation code */
+@keyframes example {
+    from {background-color: lightskyblue;}
+    to {background-color: rgb(151, 151, 151);}
+  }
+  
+  /* The element to apply the animation to */
+  div {
+    
+  }
 
 #blurb {
     max-width: 70%;
